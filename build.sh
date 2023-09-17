@@ -1,4 +1,4 @@
-#git pull
+git pull
 docker stop heosdisplay
 docker rm heosdisplay
 docker rmi $(docker images 'heosdisplay:latest' -a -q)
