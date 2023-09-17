@@ -7,6 +7,10 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
+### `npm install`
+
+Installs dependencies
+
 ### `npm start`
 
 Runs the app in the development mode.<br />
@@ -65,6 +69,14 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/ad
 ### Deployment
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
+
+### Deployment through docker
+
+This app comes with it's own dockerfile. Run
+
+`./build.sh`
+
+To pull from Github using gh, build the docker image and run it. Look inside [build.sh](build.sh) for the commands to use docker without git pull.
 
 ### `npm run build` fails to minify
 
