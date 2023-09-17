@@ -72,6 +72,8 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 
 ### Deployment through docker
 
+***NOTE: This currently doesn't work. SSE on port 8080 is not reachable on Docker. Needs a reverse proxy?*** https://www.linkedin.com/pulse/tutorial-sse-reversed-proxied-backend-daniel-wind
+
 This app comes with it's own dockerfile. Run
 
 `./build.sh`
