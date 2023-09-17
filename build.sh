@@ -1,3 +1,4 @@
+git stash
 git pull
 docker stop heosdisplay
 docker rm heosdisplay
